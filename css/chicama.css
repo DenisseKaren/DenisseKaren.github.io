@@ -1,0 +1,72 @@
+
+
+.lista li{
+	display: inline-block;
+	list-style: none;
+	padding:2% 0  2% 1%;
+	font-weight: bold;	
+}
+
+.lista a{
+	text-decoration: none;
+	color: black;
+	font-size: 95%;
+}
+.lista li:hover{
+ transform: scale(1.2);
+ transform: rotate(-35deg);
+}
+.boton {
+	background-color: orange;
+	padding: 1% 2%;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	position: absolute;	
+}
+.boton:hover{
+	transform: scale(1.2);
+	
+}
+
+.logo{
+width: 100%;
+}
+.grupal{
+	height: 827px;
+	position: relative;
+	background: url(../img/grupal.jpg) top center no-repeat;
+	background-size: cover;
+
+}
+.grupal ul{
+	max-width: 100%;
+	padding: 0;
+}
+
+.fotos li{
+list-style: none;
+display: table-cell;
+padding: 1%;
+}
+
+.fotos img{
+width: 100%;
+}
+.fotos{
+	width: 70%;
+	margin: 2% auto;
+	padding: 0;
+}
+
+.etiqueta{
+	border-bottom: 2px solid black;
+	font-weight:bold;
+	font-size: 100%;
+}
+
+.labor{
+	padding: 3% 20%;
+	background-color: #3C3939;
+	color: white;
+}
