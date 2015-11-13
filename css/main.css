@@ -1,88 +1,202 @@
 /**{
 	outline: 1px solid rgba(205,0,0,0.5);
-}
-main debajo de bootstrap*/
+}*/
 body{
-	color: #555555;
-	font-family: arial, sans-serif;
-	font-size: 13px;
+font-family: 	Baskerville, 'Baskerville old face', 'Hoefler Text', Garamond,  'Times New Roman', serif;
 }
-h1, h2, h3, h4{
-	color: #A9268D;
-	font-family: "oswald", arial, sans-serif;
+#menu{
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 2%;
 
 }
-.list-nav{
-text-align: center;
+#menu a{
+text-decoration: none;
+color: #027ABB;
+margin-right: 5%;
+font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman',  serif;
+font-size: 18px;
+font-weight: bold;
+display: inline block;
 }
-.list-nav li{
-	display: inline-block;
-}
-.list-nav a{
-display: block;
-padding: 5px 20px;
-font-family: "oswald", arial, sans-serif;
-color: #555555;
-text-transform: uppercase;
-transition: all 0.5s;
 
-}
 .list-nav a:hover{
 	text-decoration: none;
-	background-color: #ececec;
+	background-color: rgb(27, 246, 249);
 	transform:scale(1.2);
 }
-.header-content{
-	background: url(../images/background.jpg) center center;
-	color: #fff;
-	text-align: center;
-	padding: 50px 0;
-}
 
-.header-content h1{
-	color: #fff;
-}
-
-.about-me .biografia img{
-float: left;
-width: 200px;
-margin-right: 15px;
-border: 1px solid #555;
-padding: 5px;
-}
-.about-me{
-	background: url(../images/tile1.png);
-}
-.favoritos li{
-	list-style: none;
-	display: inline-block;
-    padding: 15px;
-
-}
-
-.favoritos img{
-	width: 80%;
-	border: 1px solid #A9268D;
-    padding: 5px;
-
-}
-.favoritos ul{
-	text-align: center;
-overflow-y: auto;
-height: 240px;
-}
-
-
-.contactos{
-	background: url(../images/tile2.png);
+#encabezado{
+	/*background: url(../images/land.jpg)  center no-repeat;
+	background-size: 100%;*/
+	/*background: radial-gradient(ellipse, #CBDCF3, #4087A3 ,rgba(255, 255, 200,0));
+	background: -webkit-linear-gradient(rgba(255, 255, 200,0),#4087A3);
+		background: linear-gradient(rgba(255, 255, 200,0),#4087A3);*/
+	background: url(../images/gatito.jpg)no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.8;
+	height: 350px;
+	padding-bottom: 4%;
 	padding-top: 2%;
-	padding-bottom: 2%;
+	text-align: center;
+	border-bottom: 4px solid black;
+	
+	}
+#encabezado h1{
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman',  serif;
+font-weight: bold;
+padding-top: 2%;
+padding-bottom: 2%;
+font-size: 60px;
 }
-.contactos ul{
+ #encabezado h2{
+	color: #1BF6F9;
+	padding-top: 80px;
+	font-family: Baskerville, 'Baskerville old face', 'Hoefler Text', Garamond,  'Times New Roman', serif;
+}
+.perfil{
+	
+}
+#contenido{
+	
+	background: url(../images/mariposa.jpg) top 50% left no-repeat;
+	background:-webkit-filter: grayscale(100%);
+	background-size: 110% 110%;
+	padding-bottom: 4%;
+	padding-top: 0%;
+	border-bottom: 4px solid black;
+
+}
+#contenido h1{
+	text-align: left;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	font-family: Baskerville, 'Baskerville old face', 'Hoefler Text', Garamond,  'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #027ABB;
+}
+#contenido p{
+	padding: 0 4%;
+	font-family: Baskerville, 'Baskerville old face', 'Hoefler Text', Garamond,  'Times New Roman', serif;
+	font-size: 25px;
+	color: white;
+}
+#contenido img{
+	width: 50%;
+	border: 2px solid black;
+	padding: 2px;
+
+}
+#foto{
 	text-align: center;
 }
-.contactos li{
-	list-style: none;
-	display: inline-block;
-	margin: 2%;
+#favoritos {
+	text-align: center;
+	color:#027ABB;
+border-bottom: 4px solid black;
+	background: radial-gradient(ellipse, rgba(177, 224, 233, 0),rgb(6, 43, 72));
+}
+#favoritos ul{
+	overflow-y: auto;
+	height:245px;
+}
+#favoritos h2{
+	padding-top: 1%;
+	padding-bottom:1%;
+}
+#favoritos h1{
+padding-top: 2%;
+padding-bottom: 2%;	
+ font-weight: bold;
+}
+#favoritos li {
+list-style: none;
+display: inline-block;
+margin: 4% 1% 4% 1%;
+
+
+}
+
+#favoritos li div{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 5px double #027ABB;
+}
+ 
+ .foto1{
+ 	background: url(../images/gatos.jpg) center no-repeat;
+ 	background-size: cover;
+ }
+ .foto2{
+background: url(../images/inter5.png) center no-repeat;
+ 	background-size: cover;
+ }
+ .foto3{
+background: url(../images/musica.jpg) center no-repeat;
+ 	background-size: cover;
+ }
+ .foto4{
+background: url(../images/flor.jpg) center no-repeat;
+ 	background-size: cover;
+ }
+
+ #footer{
+ 	background-color: #333;
+ 	/*background: url(../images/tile2.png);*/
+ 	text-align: center;
+ 	padding-bottom: 5%;
+
+ }
+
+ #footer li{
+ 	list-style: none;
+ display: inline-block;
+ 	margin: 2% 3%;
+ }
+ #footer h1{
+ 	padding-top: 5%;
+ 	padding-bottom: 3%;
+ 	color: #027ABB;
+ 	font-family: Baskerville, 'Baskerville old face', 'Hoefler Text', Garamond,  'Times New Roman', serif;
+    font-weight: bold;
+ 	font-size: 40px;
+ }
+
+#footer li :hover{
+transform: scale(1.3);
+}
+#menu a:hover {
+	color:blue;
+	}
+#menu a:visited{color: #027ABB;}	
+#menu a:active {color:#A8258D;}
+
+.box-with-text {
+  background-image: url(../images/cool.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+/* Other styles */
+#encabezado {
+  color: #FFF;
+}
+
+.box-with-text {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-repeat: repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  white-space: nowrap;
+  text-align: center;
+    font: 10vmax/.85 Open Sans, forte;
+  margin-bottom: 2%;
 }
