@@ -5,11 +5,14 @@
   <title>Prettyfy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link rel='stylesheet' href="fuentes/jos/stylesheet.css">
+  <link href="css/ionicons.min.css" rel="stylesheet">
+  <link rel='stylesheet' href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+
     <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 
   <script src="js/bootstrap.min.js"></script>
 
@@ -26,7 +29,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <h2 class="navbar-brand">Mi perfil</h2>
+     <h2 class="navbar-brand">Denisse</h2>
     </div>
     
     <div class="collapse navbar-collapse lista" id="bs-example-navbar-collapse-1">
@@ -42,166 +45,280 @@
   
   
   <div class="hero-section" style="position: relative; z-index: 2;"><div class="fondito"style=" background-color: #000; position:absolute;
- z-index:-1; top:0; left:0; right:0; bottom:0; opacity:0.4;"></div>
+ z-index:-1; top:0; left:0; right:0; bottom:0; opacity:0.1;"></div>
   <div class="container">
    <div class="presentacion">
+   
     <h1>Denisse Karen</h1>
     <p>Desarrolladora Web</p>
     </div>  
   </div>
       </div>
     </header>
+   
     <div class="about" id="about">
-        <div class="container">
+         <div class="row">
            
-            <div class="fotografia col-md-5 ">
-               <div class="foto"><img src="images/mio.jpg"/>
+            <div class="fotografia col-md-4 col-xs-12">
+               <div class="foto"><img src="images/mio.jpg">
                 <p>Denisse Karen</p>
                 </div>
             </div>
-            <div class="col-md-7 parrafo">
-                <h2>SOBRE MI</h2>
-                Mi nombre es Denisse Karen Ttira Choque, me gusta mucho aprender, sobre todo lo relacionado a la informática y tecnología porque es muy importante para transformar nuestras ideas e innovar,  actualmente aprendo desarrollo web para realizar diversos proyectos que sean útiles a las personas.
+            <div class="col-md-8 col-xs-12 parrafo">
+                <h2>Sobre mí
+                <div><hr><i class="ion-ios-flower-outline"></i><hr></div></h2>
+                
+               <p>Mi nombre es Denisse Karen Ttira Choque, me gusta mucho aprender, sobre todo lo relacionado a la informática y tecnología porque es muy importante para transformar nuestras ideas e innovar,  actualmente aprendo desarrollo web para realizar diversos proyectos que sean útiles a las personas.</p> 
             </div>
         </div>
     </div>
     <div class="portafolio" id="portafolio">
-       <div class="container">
-        <h2>PORTAFOLIO</h2> 
-        <div class="container">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="row">
-  <div class="col-xs-4 col-md-4">
-   <a href="http://denissekaren.github.io/escuela/" target="_blank">
-    <div class="thumbnail">
-      <img src="images/proye/escuela2.jpg" alt="...">
-      <div class="caption hidden-xs">
-        <p>Escuela de danza</p>
-     </div>
+        <h2>Portafolio
+         <div><hr><i class="ion-ios-flower-outline"></i><hr></div></h2> 
+        <div class="container">
+
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(images/proye/escuela2.jpg)"><div class="los"><div class="boton-externo"><p>Escuela de Danza</p> <button type="button" class="btn" data-toggle="modal" data-target="#danza">
+  Ver Proyecto
+</button></div></div></div>
+            <div class="swiper-slide" style="background-image:url(images/proye/homes.png)"><div class="los"><div class="boton-externo"><p>Flat Theme</p><button type="button" class="btn" data-toggle="modal" data-target="#flat">
+  Ver Proyecto
+</button></div></div></div>
+            <div class="swiper-slide" style="background-image:url(images/proye/prime.jpg)"><div class="los"><div class="boton-externo"><p>Primes</p><button type="button" class="btn" data-toggle="modal" data-target="#primes">
+  Ver Proyecto
+</button></div></div></div>
+            <div class="swiper-slide" style="background-image:url(images/proye/unsa2.jpg)"><div class="los"><div class="boton-externo"><p>Hackaton</p><button type="button" class="btn" data-toggle="modal" data-target="#hack">
+  Ver Proyecto
+</button></div></div></div>
+            <div class="swiper-slide" style="background-image:url(images/proye/dashy3.jpg)"><div class="los"><div class="boton-externo"><p>Dashboard</p><button type="button" class="btn" data-toggle="modal" data-target="#dashy">
+  Ver Proyecto
+</button></div></div></div>
+            <div class="swiper-slide" style="background-image:url(images/proye/frelancer.png)"><div class="los"><div class="boton-externo"><p>Freelancer</p><button type="button" class="btn" data-toggle="modal" data-target="#free">
+  Ver Proyecto
+</button></div></div></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
     </div>
-    </a>
     </div>
-    <div class="col-xs-4 col-md-4">
-     <a href="http://denissekaren.github.io/flat-theme/" target="_blank">
-     <div class="thumbnail">
-      <img src="images/proye/homes.png" alt="...">
-      <div class="caption hidden-xs">
-        <p>Flat-Theme</p>
-     </div>
-     </div>
-     </a>
-    </div>
-    <div class="col-xs-4 col-md-4">
-     <a href="http://denissekaren.github.io/primes/" target="_blank">
-     <div class="thumbnail">
-      <img src="images/proye/prime.jpg" alt="...">
-      <div class="caption hidden-xs">
-        <p>Primes</p>
-     </div>
-    </div>
-    </a>
-    </div>
-  </div>
-    </div>
-    <div class="item">
-    <div class="row">
-    <div class="col-xs-4 col-md-4">
-     <a href="http://denissekaren.github.io/unsa/" target="_blank">
-    <div class="thumbnail">
-      <img src="images/proye/unsa2.jpg" alt="...">
-      <div class="caption hidden-xs">
-        <p>Hackaton</p>
-     </div>
-    </div>
-    </a>
-    </div>
-    <div class="col-xs-4 col-md-4">
-     <a href="http://denissekaren.github.io/dashboard/" target="_blank">
-     <div class="thumbnail">
-      <img src="images/proye/dashy3.jpg" alt="...">
-      <div class="caption hidden-xs">
-        <p>Dashboard</p>
-     </div>
-     </div>
-     </a>
-    </div>
-    <div class="col-xs-4 col-md-4">
-     <a href="" target="_blank">
-     <div class="thumbnail">
-      <img src="images/proye/frelancer.png" alt="...">
-      <div class="caption hidden-xs">
-        <p>Freelancer</p>
-     </div>
-    </div>
-    </a>
-    </div>
-     </div>
-    </div>
-     </div>
-     
-     <!-- Controls -->
-  <a class="left carousel-control controles" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control controles" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-     </div>
     </div>
     <div class="habilidad container" id="habilidades">
-        <h2>HABILIDADES</h2>
-           <div class="col-md-4 contenedor-habilidad">
-            <div class="habilidades contenedor-img"><img src="images/html.png">
+        <h2>Habilidades
+           <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+          </h2>
+           <div class="col-md-4 col-xs-4 contenedor-habilidad">
+            <div class="habilidades contenedor-img"><i class="ion-social-html5"></i>
             <div class="mascara">  
          <h3>HTML5</h3>  
          <p>60%</p> 
      </div> 
                </div> 
             </div>
-            <div class="col-md-4 contenedor-habilidad">
-         <div class="habilidades contenedor-img"><img src="images/css.png">
+            <div class="col-md-4 col-xs-4 contenedor-habilidad">
+         <div class="habilidades contenedor-img"><i class="ion-social-css3"></i>
          <div class="mascara">
          <h3>CSS3</h3>  
          <p>60%</p>
          </div>
          </div>
          </div>
-         <div class="col-md-4 contenedor-habilidad">
-          <div class="habilidades contenedor-img"><img src="images/java.png">
+         <div class="col-md-4 col-xs-4 contenedor-habilidad">
+          <div class="habilidades contenedor-img"><i class="ion-social-javascript"></i>
           <div class="mascara">
           <h3>Java Script</h3>  
          <p>5%</p>
          </div>
          </div>
          </div>
+         
     </div>
  
  <div class="contactame" id="contactame">
-     <h2>CONTÁCTAME</h2>
+     <h2>Contáctame
+      <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+      </h2>
      
      <p>No dude en contactarse conmigo a través de correo electrónico <br>para el desarrollo de sus proyectos.</p>
      <br>
-     <p>e-mail: dttirach@gmail.com</p>
+     <p>e-mail: <a href="mailto:dttirach@gmail.com">dttirach@gmail.com</a></p>
       <br>
        <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100011075167079" target="_blank"  class="btn face btn-primary"><i class="icon-facebook"></i></a></li>
-               <li><a href="mailto:dttirach@gmail.com" target="_blank" class="btn goo btn-danger"><i class="icon-google-plus"></i></a></li>
-               <li> <a href="https://twitter.com/DenisseTtira" target="_blank" class="btn twi btn-info"><i class="icon-twitter"></i></a></li>
-              <li> <a href="https://www.linkedin.com/profile/view?id=AAIAABwk0QkBzlnv-YboaFPrnePPTIbzHsxuhu8&trk=nav_responsive_tab_profile" target="_blank" class="btn btn-lin"><i class="icon-linkedin-sign"></i></a></li>
-                <li> <a href="https://github.com/DenisseKaren" target="_blank" class="btn btn-default"><i class="icon-github"></i></a></li>
+                <li><a href="http://www.facebook.com" class="btn face btn-primary"><i class="icon-facebook"></i></a></li>
+               <li><a href="http://www.google.com" class="btn goo btn-danger"><i class="icon-google-plus"></i></a></li>
+               <li> <a href="http://www.twitter.com" class="btn twi btn-info"><i class="icon-twitter"></i></a></li>
+              <li> <a href="http://www.linkedin.com" class="btn btn-lin"><i class="icon-linkedin-sign"></i></a></li>
+                <li> <a href="http://www.linkedin.com" class="btn btn-default"><i class="icon-github"></i></a></li>
                 </ul>
  </div>
 <a href="#" class="btn btn-primary arriba"><i class="icon-chevron-up"></i></a>
+
+<!-- Modal -->
+<div class="modal fade" id="danza" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Escuela de Danza</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/proye/escuela2.jpg">
+       <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+       <p>Escuela de danza es un proyecto desarrollado con HTML5 y CSS3</p>
+      </div>
+      <div class="modal-footer">
+       <a href="http://denissekaren.github.io/escuela/" target="_blank" type="button" class="btn btn-default">Ver proyecto</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="flat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Flat Theme</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/proye/homes.png">
+       <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+       <p>Flat Theme es un proyecto desarrollado con HTML5, CSS3, JavaScript</p>
+      </div>
+      <div class="modal-footer">
+       <a href="http://denissekaren.github.io/flat-theme/" target="_blank" type="button" class="btn btn-default">Ver proyecto</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="dashy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Dashboard</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/proye/dashy3.jpg">
+       <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+       <p>Dashboard es un proyecto desarrollado con HTML5, CSS3, JavaScript</p>
+      </div>
+      <div class="modal-footer">
+       <a href="http://denissekaren.github.io/dashboard/" target="_blank" type="button" class="btn btn-default">Ver proyecto</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="primes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Primes</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/proye/prime.jpg">
+       <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+       <p>Primes es un proyecto desarrollado con HTML5, CSS3 y Bootstrap</p>
+      </div>
+      <div class="modal-footer">
+       <a href="http://denissekaren.github.io/primes/" target="_blank" type="button" class="btn btn-default">Ver proyecto</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="free" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Freelancer</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/proye/frelancer.png">
+       <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+       <p>Freelancer es un proyecto desarrollado con HTML5, CSS3 y Bootstrap</p>
+      </div>
+      <div class="modal-footer">
+       <a href="" target="_blank" type="button" class="btn btn-default">Ver proyecto</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ <div class="modal fade" id="hack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Freelancer</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/proye/unsa2.jpg">
+       <div><hr><i class="ion-ios-flower-outline"></i><hr></div>
+       <p>Hackaton es un proyecto desarrollado con HTML5, CSS3, Bootstrap y JavaScript</p>
+      </div>
+      <div class="modal-footer">
+       <a href="http://denissekaren.github.io/unsa/" target="_blank" type="button" class="btn btn-default">Ver proyecto</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
  <footer>
+    <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
      © Denisse Karen Ttira Choque.
  </footer>
+ <script src="js/swiper.min.js"></script>
+ <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1650374675227211',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
+    });
+   
+</script>
+
 </body>
+
 </html>
